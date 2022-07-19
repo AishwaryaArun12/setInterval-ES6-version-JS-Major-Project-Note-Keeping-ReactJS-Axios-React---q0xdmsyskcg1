@@ -40,7 +40,11 @@ function App() {
       tottal += smap[key];
     }
     console.log(tottal);
-    return tottal % 6;
+    if (tottal !== 0) {
+      return tottal % 6;
+    } else {
+      setIndex("No Relationship");
+    }
   }
   function clear() {
     setFname("");
@@ -49,6 +53,7 @@ function App() {
   }
   function calculate() {
     let mergelength = outputlength(fname.toLowerCase(), sname.toLowerCase());
+    console.log(mergelength);
     setIndex(arr[mergelength]);
   }
 
