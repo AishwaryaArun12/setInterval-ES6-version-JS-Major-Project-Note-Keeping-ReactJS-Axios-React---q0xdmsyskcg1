@@ -56,21 +56,30 @@ function App() {
     <div id="main">
       {/* Do not remove the main div */}
       <h3 datatest-id="answer">{index}</h3>
-      <input
-        type="text"
-        value={fname}
-        datatest-id="input1"
-        onChange={handleChange1}
-      />
-      First Name
-      <input
-        type="text"
-        value={sname}
-        datatest-id="input2"
-        onChange={handleChange2}
-      />
-      Last Name
-      <div>
+      <br />
+      <label htmlFor="fname">
+        First Name
+        <input
+          id="fname"
+          type="text"
+          value={fname}
+          datatest-id="input1"
+          onChange={handleChange1}
+        />
+      </label>
+      <br />
+      <label htmlFor="sname">
+        Last Name
+        <input
+          id="sname"
+          type="text"
+          value={sname}
+          datatest-id="input2"
+          onChange={handleChange2}
+        />
+      </label>
+      <br />
+      <div id="button">
         <button datatest-id="calculate-relationship" onClick={calculate}>
           Calculate Relationship Future
         </button>
