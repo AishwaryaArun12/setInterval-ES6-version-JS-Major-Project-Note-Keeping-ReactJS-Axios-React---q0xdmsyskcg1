@@ -10,10 +10,11 @@ button {
   align-items: center;
   background-color: black;
   margin-right: 10px;
+  height: 50px;
 }
 h3 {
   text-align: center;
-  font-size: 15%;
+  font-size: 25%;
 }
 input {
   margin-right: 10px;
@@ -27,4 +28,6 @@ h3 {
   align-items: center;
   flex-direction: column;
   background-color: moccasin;
+  height: 400px;
+  width: 400px;
 }
