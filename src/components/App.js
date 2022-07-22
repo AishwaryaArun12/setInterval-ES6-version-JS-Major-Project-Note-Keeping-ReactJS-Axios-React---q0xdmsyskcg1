@@ -68,7 +68,7 @@ function App() {
           id="fname"
           type="text"
           value={fname}
-          datatest-id="input1"
+          data-testid="input1"
           onChange={handleChange1}
         />
       </label>
@@ -79,16 +79,16 @@ function App() {
           id="sname"
           type="text"
           value={sname}
-          datatest-id="input2"
+          data-testid="input2"
           onChange={handleChange2}
         />
       </label>
       <br />
       <div id="button">
-        <button datatest-id="calculate-relationship" onClick={calculate}>
+        <button data-testid="calculate-relationship" onClick={calculate}>
           Calculate Relationship Future
         </button>
-        <button datatest-id="clear" onClick={clear}>
+        <button data-testid="clear" onClick={clear}>
           Clear
         </button>
       </div>
