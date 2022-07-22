@@ -49,12 +49,15 @@ function App() {
   function clear() {
     setFname("");
     setSname("");
-    setIndex((index) => "No Relationship");
+    setIndex("");
   }
   function calculate() {
+    if(fname!==""&&sname!==""){
     let mergelength = outputlength(fname.toLowerCase(), sname.toLowerCase());
-    console.log(mergelength);
     setIndex(arr[mergelength]);
+    }else{
+      setIndex("Please Enter valid input")
+    }
   }
 
   return (
