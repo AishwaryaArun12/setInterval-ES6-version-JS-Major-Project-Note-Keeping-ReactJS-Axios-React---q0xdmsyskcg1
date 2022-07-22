@@ -60,7 +60,7 @@ function App() {
   return (
     <div id="main">
       {/* Do not remove the main div */}
-      <h3 datatest-id="answer">{index}</h3>
+      <h3 data-testid="answer">{index}</h3>
       <br />
       <label htmlFor="fname">
         First Name
