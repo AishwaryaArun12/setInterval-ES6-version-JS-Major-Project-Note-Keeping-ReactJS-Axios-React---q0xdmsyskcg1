@@ -85,7 +85,7 @@ function App() {
       </label>
       <br />
       <div id="button">
-        <button data-testid="calculate-relationship" onClick={calculate}>
+        <button data-testid="calculate_relationship" onClick={calculate}>
           Calculate Relationship Future
         </button>
         <button data-testid="clear" onClick={clear}>
