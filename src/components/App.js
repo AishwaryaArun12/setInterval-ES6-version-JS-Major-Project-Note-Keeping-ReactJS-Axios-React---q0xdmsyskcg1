@@ -1,6 +1,6 @@
 import React, { Component, useState } from "react";
 import "../styles/App.css";
-let arr = ["sibblings", "Friends", "Love", "Affection", "Marriage", "Enemy"];
+let arr = ["Siblings", "Friends", "Love", "Affection", "Marriage", "Enemy"];
 function App() {
   const [fname, setFname] = useState("");
   const [sname, setSname] = useState("");
